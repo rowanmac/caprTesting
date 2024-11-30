@@ -22,7 +22,7 @@ npm run dev
 
 and then run Caddy to connect the interface and API.
 ```
-caddy run --config Caddyfile.dev
+caddy run --config Caddyfile.dev --adapter caddyfile
 # opens interface at specified port (5002 by default)
 ```
 
